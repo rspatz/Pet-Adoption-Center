@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 header {
@@ -12,28 +12,26 @@ header {
 }
 
 .top-section {
-    max-width: 66.625rem;
-    margin: 0 auto;
-    padding: 0 1rem;
+  max-width: 66.625rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+button {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5625rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
 }
 
 .view-btn {
-    background-color: #475AFF;
-    color: #fff;
-    text-decoration: none;
-    padding: .75rem 1.5625rem;
-    border-radius: 1.5rem;
-    margin: 2rem;
+  background-color: #475aff;
+  margin: 2rem 0;
 }
 
 .manage-btn {
-    background-color: #000;
-    color: #fff;
-    border-color: #fff;
-    text-decoration: none;
-    padding: .75rem 1.5625rem;
-    border-radius: 1.5rem;
-    margin: 2rem;
-
+  background-color: transparent;
+  border-color: #fff;
+  margin: 2rem 1rem;
 }
-
