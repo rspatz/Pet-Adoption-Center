@@ -1,1 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box
+}
+
+header {
+  height: 15rem;
+  background-color: #001d37;
+  color: #fff;
+  padding: 8.6875rem 0;
+}
+
+.top-section {
+    max-width: 66.625rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.view-btn {
+    background-color: #475AFF;
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.5625rem;
+    border-radius: 1.5rem;
+    margin: 2rem;
+}
+
+.manage-btn {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.5625rem;
+    border-radius: 1.5rem;
+    margin: 2rem;
+
+}
 
