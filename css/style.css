@@ -27,7 +27,7 @@ header {
   max-width: 32.8125rem;
 }
 
-.top-section p {
+.intro-text {
   font-size: 1.25rem;
   line-height: 169.3%;
   margin: 1rem 0;
@@ -42,7 +42,22 @@ header {
   margin-bottom: 8.0625rem;
 }
 
-button {
+.intro-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.intro-feature {
+  padding: 33px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.intro-feature p {
+  font-size: 1.0625rem;
+}
+
+.features button {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -55,10 +70,12 @@ button {
 .view-btn {
   background-color: #475aff;
   margin: 2rem 0;
+  color: #fff;
 }
 
 .manage-btn {
   background-color: transparent;
+  color: #fff;
   border-color: #fff;
   margin: 2rem 1rem;
 }
