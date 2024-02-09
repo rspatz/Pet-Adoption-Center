@@ -125,3 +125,49 @@ header {
   top: -365px;
   left: -123px;
 }
+
+/* Pets Available */
+.page-section {
+  background-color: #fff;
+  padding: 130px 16px;
+}
+
+.page-section h2 {
+  font-size: 5.31rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.page-section-inner {
+  max-width: 66.625rem;
+  margin; 0 auto;
+}
+
+.pet-filter {  
+  font-size: 1.375rem;
+  color: #9F9F9F;
+}
+
+.pet-filter button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.375rem;
+  color: #9F9F9F;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+}
+
+.choose-pet {
+  display: flex;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  color: #A6A6A6;
+  font-size: .875rem;
+  margin: 0;
+  padding: 0 0 65px 0;
+}
+
