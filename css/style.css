@@ -130,6 +130,7 @@ header {
 .page-section {
   background-color: #fff;
   padding: 130px 16px;
+  margin: 0 12rem;
 }
 
 .page-section h2 {
@@ -166,6 +167,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2.2rem;
+  row-gap: 1.75rem;
 }
 
 .pet-card {
@@ -186,7 +188,7 @@ header {
   width: 100%;
   height: 100%;
   display: block;
-  image-size: cover;
+  object-fit: cover;
 }
 
 .pet-card-text {
